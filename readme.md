@@ -1,25 +1,22 @@
-Untitled
+"Getting and Cleaning Data"" course project
 ================
 
-`{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)`
 
-## GitHub Documents
 
-This is an R Markdown format used for publishing markdown documents to
-GitHub. When you click the **Knit** button all R code chunks are run and
-a markdown file (.md) suitable for publishing to GitHub is generated.
+This repository is for "Getting and Cleaning Data"" course project
 
-## Including Code
+Dataset
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-You can include R code in the document as follows:
+Files: 
 
-`{r cars} summary(cars)`
+1. CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
 
-## Including Plots
+2. run_analysis.R performs the data preparation and then followed by the 5 steps required as described in the course project’s definition:
+        Merges the training and the test sets to create one data set.
+        Extracts only the measurements on the mean and standard deviation for each measurement.
+        Uses descriptive activity names to name the activities in the data set
+        Appropriately labels the data set with descriptive variable names.
+        From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+3. Final_Data.txt is the exported final data after going through all the sequences described above.
 
-You can also embed plots, for example:
-
-`{r pressure, echo=FALSE} plot(pressure)`
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
